@@ -1,0 +1,14 @@
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\bin\Debug\net8.0\Jan8.exe
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\bin\Debug\net8.0\Jan8.deps.json
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\bin\Debug\net8.0\Jan8.runtimeconfig.json
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\bin\Debug\net8.0\Jan8.dll
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\bin\Debug\net8.0\Jan8.pdb
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\obj\Debug\net8.0\Jan8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\obj\Debug\net8.0\Jan8.AssemblyInfoInputs.cache
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\obj\Debug\net8.0\Jan8.AssemblyInfo.cs
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\obj\Debug\net8.0\Jan8.csproj.CoreCompileInputs.cache
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\obj\Debug\net8.0\Jan8.dll
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\obj\Debug\net8.0\refint\Jan8.dll
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\obj\Debug\net8.0\Jan8.pdb
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\obj\Debug\net8.0\Jan8.genruntimeconfig.cache
+C:\Users\KALLIKHI\Documents\NOTES\CODES\Jan8\obj\Debug\net8.0\ref\Jan8.dll

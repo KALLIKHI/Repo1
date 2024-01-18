@@ -1,0 +1,225 @@
+Day1
+using System;
+class HelloWorld {
+  static void Main() {
+    Console.WriteLine("Hello World");
+    Console.WriteLine("Likhitha");
+  }
+}
+
+Hello World
+Likhitha
+
+//code2 student
+using System;
+class Student{
+    
+    //string datatype(type of data to be stored in a variable)
+    //name variable ( Temporary storage of data in memory)
+
+    string name;
+    int age;
+
+    public void GetStudentName()
+    {
+        Console.WriteLine("Enter Student Name");
+        name = Console.ReadLine();
+        Console.WriteLine("Enter Age");
+        age= Convert.ToInt32(Console.ReadLine());
+    }
+
+    public void PrintStudentName()
+    {
+        Console.WriteLine($"Student name: {name} age: {age}");
+        Console.WriteLine("Student name: {0} age:{1}", name,age);
+
+    }
+
+}
+
+
+
+class HelloWorld {
+    static void Main() {
+        Student student1 = new Student(); // created an object
+        student1.GetStudentName(); //function call
+        student1.PrintStudentName(); // function call
+    }
+}
+ out put:
+
+Enter Student Name
+Likhitha
+Enter age
+22
+Student name: Likhitha age:22
+Student name: Likhitha age:22
+
+code3: square of num
+using System;
+public class Num {
+    int num,x;
+    public void GetNumber()
+    {
+        Console.WriteLine("Enter num");
+        num = Convert.ToInt32(Console.ReadLine());
+    }
+    public void PrintNumber()
+    {
+        x = num*num;
+        Console.WriteLine($"Square of  num : {x}");
+        
+    }
+}
+    class Details{
+    static void Main() {
+        Num n1 = new Num(); // created an object
+        n1.GetNumber(); //function call
+        n1.PrintNumber(); // function call
+    }
+}
+output:
+
+
+/////////
+3. Write a Program Wich accepts two numbers and prints
+add,substract,multiply,divide
+
+
+using System;
+public class Num {
+    int a,b;
+    public void GetNumber()
+    {
+        Console.WriteLine("Enter first number ");
+        a = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter second number ");
+        b = Convert.ToInt32(Console.ReadLine());
+    }
+    public void PrintNumber()
+    {
+        
+        Console.WriteLine($"ADDITION : {a+b}");
+        Console.WriteLine($"SUBTRACTION : {a-b}");
+        Console.WriteLine($"MULTIPLY : {a*b}");
+        Console.WriteLine($"DIVISION : {a/b}");
+        
+    }
+}
+    class Details{
+    static void Main() {
+        Num n1 = new Num(); // created an object
+        n1.GetNumber(); //function call
+        n1.PrintNumber(); // function call
+    }
+}
+
+
+//////
+4. Write a Program Employee accept Empid, Name,Designation,Department
+and print the same
+
+using System;
+public class Num {
+    int empid;
+    string ename , edesignation, edepartment;
+    
+    public void GetNumber()
+    {
+        
+        Console.WriteLine("Enter Emp id ");
+        empid= Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter emp name ");
+        ename = Console.ReadLine();
+        Console.WriteLine("Enter emp designation ");
+        edepartment = Console.ReadLine();
+        Console.WriteLine("Enter emp department ");
+        edesignation = Console.ReadLine();
+        
+    }
+    public void PrintNumber()
+    {
+        
+        Console.WriteLine($"emp id : {empid}");
+        Console.WriteLine($"emp name :{ename}");
+        Console.WriteLine($"emp designation :{edepartment}");
+        Console.WriteLine($"emp department: {edesignation}");
+        
+    }
+}
+    class Details{
+    static void Main() {
+        Num n1 = new Num(); // created an object
+        n1.GetNumber(); //function call
+        n1.PrintNumber(); // function call
+    }
+}
+OUTPUT:
+Enter Emp id 
+22
+Enter emp name 
+LIKHITHA
+Enter emp designation 
+BTECH
+Enter emp department 
+CSE
+emp id : 22
+emp name :LIKHITHA
+emp designation :BTECH
+emp department: CSE
+
+///////////////////////
+5. Write a Program Product accept Productid,Productname, Productprice, Unitspurchased, display the bill
+
+using System;
+public class Num {
+    int pid,pprice,punits;
+    string pname;
+    
+    public void GetNumber()
+    {
+        
+        Console.WriteLine("Enter product id ");
+        pid= Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter product name ");
+        pname = Console.ReadLine();
+        Console.WriteLine("Enter product price ");
+        pprice = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter product units ");
+        punits = Convert.ToInt32(Console.ReadLine());
+        
+    }
+    public void PrintNumber()
+    {
+        
+        Console.WriteLine($"emp id : {pid}");
+        Console.WriteLine($"emp name :{pname}");
+        Console.WriteLine($"emp designation :{pprice}");
+        Console.WriteLine($"emp department: {punits}");
+        Console.WriteLine($"bill : {punits*pprice}");
+        
+    }
+}
+    class Details{
+    static void Main() {
+        Num n1 = new Num(); // created an object
+        n1.GetNumber(); //function call
+        n1.PrintNumber(); // function call
+    }
+}
+output:
+Enter product id 
+2
+Enter product name 
+apple
+Enter product price 
+30
+Enter product units 
+2
+emp id : 2
+emp name :apple
+emp designation :30
+emp department: 2
+bill : 60
+
+
